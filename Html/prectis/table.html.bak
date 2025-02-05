@@ -367,16 +367,16 @@
       </tr>
      </tbody>
     </table>
-	
+	<br/><br/>
 	
 	<!-- 7 table-->
 	<table cellspacing="" cellpadding="10" class="tra">
 	  
 	  <tbody>
 	  <tr>
-	  <td colspan="4" rowspan="3">A</td>
-	  <td colspan="2">D</td>
-	  <td colspan="2">E</td>
+	  <td colspan="4" rowspan="3" class="tra">A</td>
+	  <td colspan="2" class="tra">D</td>
+	  <td colspan="2" class="tra">E</td>
 	  </tr>
 	  
 	  <tr>
@@ -385,23 +385,23 @@
 	  </tr>
 	  
 	  <tr>
-	  <td colspan="2">H</td>
-	  <td colspan="2">I</td>
+	  <td colspan="2" class="tra">H</td>
+	  <td colspan="2" class="tra">I</td>
 	  </tr>
 	   
 	  <tr>
 	   <td colspan="4" rowspan="2">B</td>
-	   <td colspan="2">J</td>
-	   <td colspan="2">K</td>
+	   <td colspan="2" class="tra">J</td>
+	   <td colspan="2" class="tra">K</td>
 	  </tr>
 	  
 	  <tr>
-	     <td colspan="4">L</td>
+	     <td colspan="4" class="tra">L</td>
 	  </tr>
 	
 	  <tr>
-	   <td colspan="4">C</td>
-	   <td colspan="4">M</td>
+	   <td colspan="4" class="tra">C</td>
+	   <td colspan="4" class="tra">M</td>
 	  </tr>
 	  
 	  <tr>
@@ -541,6 +541,85 @@
 	  </tbody>
 	
 	</table>
+	<br/><br/>
+	<table>
+	<thead>
+	<tr>
+	<th>Level 1</th>
+	<th>Level 2</th>
+	<th>Level 3</th>
+	<th>inffo</th>
+	<th>name</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+	<td rowspan="6">System</td>
+	<td rowspan="4">System app</td>
+	<td rowspan="3">System Env</td>
+	<td>App Test</td>
+	<td>foo</td>
 	
+	</tr>
+	
+	<tr>
+	<td>App Memory</td>
+	<td>foo</td>
+	</tr>
+	
+	<tr>
+	<td>App Test</td>
+	<td>bar</td>
+	</tr>
+	
+	<tr>
+	<td>System Env2</td>
+	<td>App Test</td>
+	<td>bar</td>
+	</tr>
+	
+	<tr>
+	<td rowspan="2">System Memory</td>
+	<td rowspan="2">Memory Test</td>
+	<td>Memory Func</td>
+	<td>foo</td>
+	</tr>
+	
+	<tr>
+	
+	<td>App Test</td>
+	<td>foo</td>
+	</tr>
+	</tbody>
+	
+	</table>
+	
+	<br/><br/>
+	<table>
+	
+	<thead>
+<tr>
+	<th>name</th>
+	<th>Sub</th>
+	<th>Part</th>
+</tr>
+	</thead>
+	
+	<tbody>
+	<tr>
+	<td rowspan="5">SHIVA</td>
+	<td rowspan="2">Maths</td>
+	<td>A</td>
+	</tr>
+	<tr>
+	<td>B</td>
+	</tr>
+	
+	<tr>
+	 <td rowspan="3"> science</td>
+	 <td></td>
+	</tr>
+	</tbody>
+	</table>
 </body>
 </html>
