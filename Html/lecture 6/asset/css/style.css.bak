@@ -1,0 +1,12 @@
+form{
+ width:500px;
+ background-color:red;
+ color:white;
+}
+
+input{
+
+width:200px;
+
+
+               }
