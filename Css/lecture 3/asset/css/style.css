@@ -86,14 +86,16 @@ header section:nth-child(17) div:nth-child(1) p:nth-of-type(1) {
 }
 
 /* 28 */
-header section:nth-child(17) h1:nth-child(3) {
+header section:nth-child(17) div+h1:nth-child(3) {
   background-color: green;
 }
 
+/* 35 */
 h1:nth-child(19) {
   background-color: red;
 }
 
+/* 40 */
 h1:nth-child(24) {
   background-color: red;
 }
