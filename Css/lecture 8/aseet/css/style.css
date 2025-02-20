@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    /* display: inline-block; */
+}
+
+.box-2 {
+    width: 200px;
+    height: 200px;
+    background-color: #000;
+    display: none;
+    /* display: inline-block; */
+}
+
+.inline {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    /* display: block; */
+}
+
+/* .maindiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+} */
+
+.maindiv {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: end;
+}
+
+
+
+@media (max-width:600px) {
+    .box-2 {
+        display: block;
+    }
+}
