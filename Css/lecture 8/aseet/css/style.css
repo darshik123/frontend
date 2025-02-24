@@ -14,17 +14,24 @@
     align-items: center;
     /* display: inline-block; */
     /* border: 20px solid black; */
+
     /* padding: 20px;
     padding: 20px 30px;
     padding: 20px 30px 40px;
-    padding: 20px 30px 40px 50px; */
-
+    padding: 20px 30px 40px 50px;
     padding-left: 10px;
     padding-right: 20px;
     padding-top: 30px;
-    padding-bottom: 40px;
+    padding-bottom: 40px; */
 
-    /* margin: 20px; */
+    /* margin: 20px;
+    margin: 20px 30px;
+    margin: 20px 30px 40px;
+    margin: 20px 30px 40px 50px;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 40px; */
 }
 
 .box-2 {

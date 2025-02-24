@@ -1,0 +1,40 @@
+.headingtag {
+    text-transform: capitalize;
+    font-size: 100px;
+    text-decoration: underline;
+    text-decoration: overline;
+
+}
+
+span {
+    font-size: 20px;
+    vertical-align: baseline;
+    /* 
+    vertical-align: bottom;
+    vertical-align: text-bottom; */
+
+    /* vertical-align: top;
+    vertical-align: text-top; */
+
+    /* vertical-align: middle; */
+
+    /* vertical-align: sub; */
+    /* vertical-align: super; */
+
+}
+
+
+.box {
+    height: 500px;
+    width: 500px;
+    background-color: rgb(226, 226, 0);
+    visibility: hidden;
+    visibility: collapse;
+    visibility: visible;
+}
+
+.box-1 {
+    height: 500px;
+    width: 500px;
+    background-color: rgb(164, 234, 243);
+}
