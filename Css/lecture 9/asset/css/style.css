@@ -38,3 +38,35 @@ span {
     width: 500px;
     background-color: rgb(164, 234, 243);
 }
+
+
+.mainbox {
+    width: 600px;
+    height: 200px;
+
+
+}
+
+.maindiv {
+
+    width: 100%;
+    height: 100%;
+    background-color: green;
+}
+
+.box-2 {
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    max-width: 500px;
+    min-width: 300px;
+
+}
+
+@media(max-width:600px) {
+
+    .mainbox {
+        width: 800px;
+        height: 800px;
+    }
+}
