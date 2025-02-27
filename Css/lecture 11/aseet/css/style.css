@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.mainbox {
+    display: flex;
+    width: 1400px;
+    height: 500px;
+    border: 2px solid black;
+}
+
+
+.mainbox>div {
+    /* flex-grow: 1; */
+    /* flex-basis: 100px; */
+}
+
+.mainbox :nth-child(1) {
+    /* flex-grow: 10; */
+    background-color: aqua;
+    flex-shrink: 10;
+
+}
+
+.mainbox :nth-child(2) {
+    /* flex-grow: 9; */
+    background-color: blue;
+}
+
+.mainbox :nth-child(3) {
+    background-color: aquamarine;
+}
+
+.mainbox :nth-child(4) {
+    background-color: red;
+}
+
+.mainbox :nth-child(5) {
+    background-color: green;
+}
+
+.mainbox :nth-child(6) {
+    background-color: brown;
+}
+
+.mainbox :nth-child(7) {
+    background-color: yellow;
+}
+
+.mainbox :nth-child(8) {
+    background-color: cadetblue;
+}
+
+.mainbox :nth-child(9) {
+    background-color: darkblue;
+}
+
+.mainbox :nth-child(10) {
+    background-color: chartreuse;
+}
