@@ -3,28 +3,31 @@
     box-sizing: border-box;
 }
 
-.mainbox {
+body {
     display: flex;
-    width: 800px;
-    height: 500px;
-    border: 2px solid black;
+    justify-content: center;
 }
 
+.mainbox {
+    display: flex;
+    width: 900px;
+    height: 500px;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: flex-start;
+}
 
 .mainbox>div {
-    /* flex-grow: 1; */
-    flex-basis: 100px;
+    width: 100px;
+    height: 100px;
 }
 
 .mainbox :nth-child(1) {
-    /* flex-grow: 10; */
     background-color: aqua;
-    flex-shrink: 10;
-
 }
 
 .mainbox :nth-child(2) {
-    /* flex-grow: 9; */
+
     background-color: blue;
 }
 
@@ -42,20 +45,4 @@
 
 .mainbox :nth-child(6) {
     background-color: brown;
-}
-
-.mainbox :nth-child(7) {
-    background-color: yellow;
-}
-
-.mainbox :nth-child(8) {
-    background-color: cadetblue;
-}
-
-.mainbox :nth-child(9) {
-    background-color: darkblue;
-}
-
-.mainbox :nth-child(10) {
-    background-color: chartreuse;
 }
