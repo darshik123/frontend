@@ -22,3 +22,22 @@
     z-index: 10;
 
 }
+
+
+nav {
+    background-color: cadetblue;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    color: white;
+}
