@@ -3,171 +3,85 @@
     box-sizing: border-box;
 }
 
-
 .mainbox {
     height: 100vh;
     border: 2px solid black;
 }
 
-
 .mainbox div {
     width: 200px;
     height: 200px;
-
-
-
+    position: absolute;
+    margin: auto;
 }
 
 .mainbox div>div {
     width: 100px;
     height: 100px;
-
+    position: absolute;
+    margin: auto;
     background-color: black;
 }
-
 
 .mainbox>div:nth-child(1) {
     background-color: red;
 }
 
-
-.mainbox>div:nth-child(2) {
-    background-color: green;
-    margin: auto;
-    position: absolute;
-    top: 0px;
-    right: 0;
-    left: 0;
-}
-
-.mainbox>div:nth-child(3) {
-    background-color: brown;
-    margin: auto;
-    position: absolute;
-    right: 0px;
-    top: 0px;
-}
-
-
-.mainbox>div:nth-child(4) {
-    background-color: yellow;
-    margin: auto;
-    position: absolute;
-    left: 0px;
-    top: 0;
-    bottom: 0;
-}
-
-
-.mainbox>div:nth-child(5) {
-    background-color: aqua;
-    margin: auto;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-}
-
-
-.mainbox>div:nth-child(6) {
-    background-color: blue;
-    margin: auto;
-    position: absolute;
-    right: 0px;
-    top: 0;
-    bottom: 0;
-}
-
-.mainbox>div:nth-child(7) {
-    background-color: blueviolet;
-    margin: auto;
-    position: absolute;
-    left: 0;
-    bottom: 0px;
-}
-
-.mainbox>div:nth-child(8) {
-    background-color: cadetblue;
-    margin: auto;
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0px;
-}
-
-
-.mainbox>div:nth-child(9) {
-    background-color: tomato;
-    margin: auto;
-    position: absolute;
-    right: 0;
-    bottom: 0px;
-}
-
+.mainbox>div:nth-child(2),
 .sub-box-2 {
-    position: absolute;
-    margin: auto;
+    background-color: green;
+    top: 0px;
+    right: 0;
     left: 0;
-    right: 0;
-    top: 0px;
 }
 
+.mainbox>div:nth-child(3),
 .sub-box-3 {
-    position: absolute;
-    margin: auto;
-
-    right: 0;
+    background-color: brown;
+    right: 0px;
     top: 0px;
 }
 
-
+.mainbox>div:nth-child(4),
 .sub-box-4 {
-    position: absolute;
-    margin: auto;
-
+    background-color: yellow;
     left: 0px;
     top: 0;
     bottom: 0;
 }
 
+.mainbox>div:nth-child(5),
 .sub-box-5 {
-    position: absolute;
-    margin: auto;
-    right: 0;
-    left: 0;
-    top: 0;
-    bottom: 0;
+    background-color: aqua;
+    inset: 0;
 }
 
+.mainbox>div:nth-child(6),
 .sub-box-6 {
-    position: absolute;
-    margin: auto;
-
-    right: 0;
+    background-color: blue;
+    right: 0px;
     top: 0;
     bottom: 0;
 }
 
+.mainbox>div:nth-child(7),
 .sub-box-7 {
-    position: absolute;
-    margin: auto;
+    background-color: blueviolet;
     left: 0;
-    bottom: 0;
+    bottom: 0px;
 }
 
+.mainbox>div:nth-child(8),
 .sub-box-8 {
-    position: absolute;
-    margin: auto;
-
+    background-color: cadetblue;
     left: 0;
     right: 0;
-    bottom: 0;
+    bottom: 0px;
 }
 
+.mainbox>div:nth-child(9),
 .sub-box-9 {
-    position: absolute;
-    margin: auto;
+    background-color: tomato;
     right: 0;
-    bottom: 0;
+    bottom: 0px;
 }
