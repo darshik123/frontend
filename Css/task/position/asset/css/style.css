@@ -13,6 +13,7 @@
     height: 200px;
     position: absolute;
     margin: auto;
+
 }
 
 .mainbox div>div {
@@ -25,27 +26,30 @@
 
 .mainbox>div:nth-child(1) {
     background-color: red;
+
 }
 
 .mainbox>div:nth-child(2),
 .sub-box-2 {
     background-color: green;
-    top: 0px;
+    /* top: 0;
     right: 0;
-    left: 0;
+    left: 0; */
+    inset: 0 0 auto 0;
 }
 
 .mainbox>div:nth-child(3),
 .sub-box-3 {
     background-color: brown;
-    right: 0px;
-    top: 0px;
+    /* right: 0;
+    top: 0; */
+    inset: 0 0 auto auto;
 }
 
 .mainbox>div:nth-child(4),
 .sub-box-4 {
     background-color: yellow;
-    left: 0px;
+    left: 0;
     top: 0;
     bottom: 0;
 }
@@ -59,7 +63,7 @@
 .mainbox>div:nth-child(6),
 .sub-box-6 {
     background-color: blue;
-    right: 0px;
+    right: 0;
     top: 0;
     bottom: 0;
 }

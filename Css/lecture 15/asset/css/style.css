@@ -59,3 +59,42 @@ section:nth-child(3) {
     background-color: blueviolet;
     position: relative;
 }
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.btn-box {
+    width: 300px;
+    height: 270px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+}
+
+input {
+    margin-top: 20px;
+    border: none;
+    padding: 10px 20px;
+    background-color: burlywood;
+    border-radius: 5px;
+}
+
+.circul {
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: rgb(55, 55, 87);
+    position: absolute;
+    /* font-size: 10px; */
+    right: 110px;
+    bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
