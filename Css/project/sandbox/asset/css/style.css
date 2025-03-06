@@ -14,5 +14,7 @@
 
 /* header start */
 
-
-
+nav {
+    display: flex;
+    text-align: center;
+}
