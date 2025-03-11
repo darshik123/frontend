@@ -1,0 +1,39 @@
+/* .mainbox {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../images/pexels-shen-juni-2149985613-30890105.jpg), no-repeat;
+}
+
+.box {
+    width: 100px;
+    height: 150px;
+    padding: 20px;
+    color: white;
+
+    backdrop-filter: blur(10px);
+} */
+
+/* h1 {
+    font-size: calc(5vw + 2px);
+} */
+
+/* :root {
+    --wi-100: 200px;
+    --he-100: 200px;
+    --bgc: red;
+}
+
+.box {
+    width: var(--wi-100);
+    height: var(--he-100);
+    background-color: var(--bgc);
+} */
+
+
+/* .gridbox {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr;
+} */
