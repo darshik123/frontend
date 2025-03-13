@@ -7,53 +7,39 @@
   font-family: "Manrope", sans-serif;
 }
 
-body {
-  margin: 0;
-}
+
 
 header {
-  width: 100vw;
-  /* background-color: red; */
-  margin: 0;
   background-color: #f6f7f9;
-  /* background-color: red; */
-  /* border: 1px solid #f6f7f9; */
-  border: 1px solid black;
-
-
+  padding-top: 40px;
 }
 
 .contianer {
   max-width: 1200px;
-  border: 1px solid black;
-
+  /* border: 1px solid black; */
   margin: auto;
-
-
 }
 
-/* .homeblank {
-  width: 100%;
-  margin-bottom: 50px;
-  background-color: aqua;
-} */
+
 
 /*  header start  */
 
 .navbar {
-  margin-top: 50px;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  /* background-color: #f6f7f9; */
   background-color: white;
-  /* border: 1px solid; */
+  box-shadow: 0px 0px 2px gray;
+  border-radius: 5px;
 
   .nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 15px;
+
+    .logo a {
+      display: flex;
+    }
 
     .navitems {
       margin-left: 50px;
@@ -63,9 +49,7 @@ header {
         list-style: none;
 
         li {
-          padding: 10px 15px;
-          /* display: flex; */
-          /* margin: 0px 20px; */
+          padding: 20px 20px;
         }
 
         li a {
@@ -77,7 +61,6 @@ header {
             margin-left: 5px;
           }
         }
-
       }
     }
   }
@@ -117,21 +100,22 @@ header {
 
 
 .home-page {
+  padding-top: 100px;
   width: 100%;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* display: flex; */
   justify-content: space-around;
-  margin: auto;
-  margin-top: 100px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 
   .home-page-img {
-    width: 40%;
+    /* border: 1px solid black; */
 
     .page-img {
       box-sizing: content-box;
-      width: 400px;
-      height: 350px;
-      border-radius: 40% 60% 60% 40%;
+      width: 500px;
+      height: 500px;
+      border-radius: 60% 60% 60% 60%;
       background-image: url(../images/home-img.jpeg);
       background-size: cover;
     }
@@ -139,10 +123,39 @@ header {
   }
 
   .home-page-content {
-    width: 50%;
+    padding: 40px;
+    /* border: 1px solid black; */
+    display: grid;
 
-    h1 {
-      font-size: 48px;
+    .home-page-heding {
+      /* text-align: center; */
+
+      h1 {
+        font-size: 48px;
+      }
+    }
+
+    .home-page-describe {
+      font-size: 25px;
+    }
+
+    .home-page-btn {
+      a:nth-child(1) {
+        text-decoration: none;
+        padding: 15px 30px;
+        border-radius: 50px;
+        color: #ffffff;
+        background-color: #d16b86;
+      }
+
+      a:nth-child(2) {
+        padding: 15px 30px;
+        border-radius: 50px;
+        text-decoration: none;
+        border: 1px solid #d16b86;
+        color: #d16b86;
+      }
     }
   }
+
 }
