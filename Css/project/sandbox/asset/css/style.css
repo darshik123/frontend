@@ -110,6 +110,12 @@ header {
 
   .home-page-img {
     /* border: 1px solid black; */
+    animation-name: slideInDown;
+    animation-duration: 700ms;
+    animation-timing-function: ease;
+    /* animation-delay: 1500ms; */
+    animation-direction: normal;
+    animation-fill-mode: both;
 
     .page-img {
       box-sizing: content-box;
@@ -127,25 +133,65 @@ header {
     /* border: 1px solid black; */
     display: grid;
 
+
+    /* margin-top: 140px; */
+    /* font-size: 30px; */
+    /* font-weight: bold; */
+    /* text-align: left; */
+    /* position: relative; */
+    animation-name: slideInDown;
+    animation-duration: 700ms;
+    animation-timing-function: ease;
+    animation-delay: 500ms;
+    animation-direction: normal;
+    animation-fill-mode: both;
+
     .home-page-heding {
       /* text-align: center; */
+      animation-name: slideInDown;
+      animation-duration: 700ms;
+      animation-timing-function: ease;
+      animation-delay: 1000ms;
+      animation-direction: normal;
+      animation-fill-mode: both;
 
       h1 {
         font-size: 48px;
+        font-size: calc(5v - 2px);
       }
     }
 
     .home-page-describe {
       font-size: 25px;
+      animation-name: slideInDown;
+      animation-duration: 700ms;
+      animation-timing-function: ease;
+      animation-delay: 1500ms;
+      animation-direction: normal;
+      animation-fill-mode: both;
     }
 
     .home-page-btn {
+      /* animation-name: slideInDown;
+      animation-duration: 700ms;
+      animation-timing-function: ease;
+      animation-delay: 2000ms;
+      animation-direction: normal;
+      animation-fill-mode: both; */
+
       a:nth-child(1) {
         text-decoration: none;
         padding: 15px 30px;
         border-radius: 50px;
         color: #ffffff;
         background-color: #d16b86;
+
+        animation-name: slideInDown;
+        animation-duration: 700ms;
+        animation-timing-function: ease;
+        animation-delay: 2000ms;
+        animation-direction: normal;
+        animation-fill-mode: both;
       }
 
       a:nth-child(2) {
@@ -154,8 +200,49 @@ header {
         text-decoration: none;
         border: 1px solid #d16b86;
         color: #d16b86;
+        background-color: black;
+
+        animation-name: slideInDown;
+        animation-duration: 700ms;
+        animation-timing-function: ease;
+        animation-delay: 2500ms;
+        animation-direction: normal;
+        animation-fill-mode: both;
       }
     }
   }
 
+}
+
+
+
+
+.animated-text {
+  margin-top: 140px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: left;
+  position: relative;
+  animation-name: slideInDown;
+  animation-duration: 700ms;
+  animation-timing-function: ease;
+  animation-delay: 500ms;
+  animation-direction: normal;
+  animation-fill-mode: both;
+}
+
+
+
+
+
+@keyframes slideInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
