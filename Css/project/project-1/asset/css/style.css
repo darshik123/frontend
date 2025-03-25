@@ -226,7 +226,7 @@ header {
 
       p {
         font-size: 25px;
-        color: #343f52;
+        color: #60697b;
         font-weight: bold;
       }
     }
@@ -294,6 +294,7 @@ header {
     h1 {
       font-size: 36px;
       margin-bottom: 20px;
+      color: #343f52;
     }
 
     p {
@@ -416,6 +417,10 @@ header {
   display: flex;
   width: 100%;
   justify-content: space-around;
+
+  h4 {
+    color: #343f52;
+  }
 
   p {
     color: #60697b;
